@@ -1,0 +1,3292 @@
+fileFormatVersion: 2
+guid: 83e404d57c6cfc04badafac4bbc2e213
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: egg_hatching_spritesheet_0
+    21300002: egg_hatching_spritesheet_1
+    21300004: egg_hatching_spritesheet_2
+    21300006: egg_hatching_spritesheet_3
+    21300008: egg_hatching_spritesheet_4
+    21300010: egg_hatching_spritesheet_5
+    21300012: egg_hatching_spritesheet_6
+    21300014: egg_hatching_spritesheet_7
+    21300016: egg_hatching_spritesheet_8
+    21300018: egg_hatching_spritesheet_9
+    21300020: egg_hatching_spritesheet_10
+    21300022: egg_hatching_spritesheet_11
+    21300024: egg_hatching_spritesheet_12
+    21300026: egg_hatching_spritesheet_13
+    21300028: egg_hatching_spritesheet_14
+    21300030: egg_hatching_spritesheet_15
+    21300032: egg_hatching_spritesheet_16
+    21300034: egg_hatching_spritesheet_17
+    21300036: egg_hatching_spritesheet_18
+    21300038: egg_hatching_spritesheet_19
+    21300040: egg_hatching_spritesheet_20
+    21300042: egg_hatching_spritesheet_21
+    21300044: egg_hatching_spritesheet_22
+    21300046: egg_hatching_spritesheet_23
+    21300048: egg_hatching_spritesheet_24
+    21300050: egg_hatching_spritesheet_25
+    21300052: egg_hatching_spritesheet_26
+    21300054: egg_hatching_spritesheet_27
+    21300056: egg_hatching_spritesheet_28
+    21300058: egg_hatching_spritesheet_29
+    21300060: egg_hatching_spritesheet_30
+    21300062: egg_hatching_spritesheet_31
+    21300064: egg_hatching_spritesheet_32
+    21300066: egg_hatching_spritesheet_33
+    21300068: egg_hatching_spritesheet_34
+    21300070: egg_hatching_spritesheet_35
+    21300072: egg_hatching_spritesheet_36
+    21300074: egg_hatching_spritesheet_37
+    21300076: egg_hatching_spritesheet_38
+    21300078: egg_hatching_spritesheet_39
+    21300080: egg_hatching_spritesheet_40
+    21300082: egg_hatching_spritesheet_41
+    21300084: egg_hatching_spritesheet_42
+    21300086: egg_hatching_spritesheet_43
+    21300088: egg_hatching_spritesheet_44
+    21300090: egg_hatching_spritesheet_45
+    21300092: egg_hatching_spritesheet_46
+    21300094: egg_hatching_spritesheet_47
+    21300096: egg_hatching_spritesheet_48
+    21300098: egg_hatching_spritesheet_49
+    21300100: egg_hatching_spritesheet_50
+    21300102: egg_hatching_spritesheet_51
+    21300104: egg_hatching_spritesheet_52
+    21300106: egg_hatching_spritesheet_53
+    21300108: egg_hatching_spritesheet_54
+    21300110: egg_hatching_spritesheet_55
+    21300112: egg_hatching_spritesheet_56
+    21300114: egg_hatching_spritesheet_57
+    21300116: egg_hatching_spritesheet_58
+    21300118: egg_hatching_spritesheet_59
+    21300120: egg_hatching_spritesheet_60
+    21300122: egg_hatching_spritesheet_61
+    21300124: egg_hatching_spritesheet_62
+    21300126: egg_hatching_spritesheet_63
+    21300128: egg_hatching_spritesheet_64
+    21300130: egg_hatching_spritesheet_65
+    21300132: egg_hatching_spritesheet_66
+    21300134: egg_hatching_spritesheet_67
+    21300136: egg_hatching_spritesheet_68
+    21300138: egg_hatching_spritesheet_69
+    21300140: egg_hatching_spritesheet_70
+    21300142: egg_hatching_spritesheet_71
+    21300144: egg_hatching_spritesheet_72
+    21300146: egg_hatching_spritesheet_73
+    21300148: egg_hatching_spritesheet_74
+    21300150: egg_hatching_spritesheet_75
+    21300152: egg_hatching_spritesheet_76
+    21300154: egg_hatching_spritesheet_77
+    21300156: egg_hatching_spritesheet_78
+    21300158: egg_hatching_spritesheet_79
+    21300160: egg_hatching_spritesheet_80
+    21300162: egg_hatching_spritesheet_81
+    21300164: egg_hatching_spritesheet_82
+    21300166: egg_hatching_spritesheet_83
+    21300168: egg_hatching_spritesheet_84
+    21300170: egg_hatching_spritesheet_85
+    21300172: egg_hatching_spritesheet_86
+    21300174: egg_hatching_spritesheet_87
+    21300176: egg_hatching_spritesheet_88
+    21300178: egg_hatching_spritesheet_89
+    21300180: egg_hatching_spritesheet_90
+    21300182: egg_hatching_spritesheet_91
+    21300184: egg_hatching_spritesheet_92
+    21300186: egg_hatching_spritesheet_93
+    21300188: egg_hatching_spritesheet_94
+    21300190: egg_hatching_spritesheet_95
+    21300192: egg_hatching_spritesheet_96
+    21300194: egg_hatching_spritesheet_97
+    21300196: egg_hatching_spritesheet_98
+    21300198: egg_hatching_spritesheet_99
+    21300200: egg_hatching_spritesheet_100
+    21300202: egg_hatching_spritesheet_101
+    21300204: egg_hatching_spritesheet_102
+    21300206: egg_hatching_spritesheet_103
+    21300208: egg_hatching_spritesheet_104
+    21300210: egg_hatching_spritesheet_105
+    21300212: egg_hatching_spritesheet_106
+    21300214: egg_hatching_spritesheet_107
+    21300216: egg_hatching_spritesheet_108
+    21300218: egg_hatching_spritesheet_109
+    21300220: egg_hatching_spritesheet_110
+    21300222: egg_hatching_spritesheet_111
+    21300224: egg_hatching_spritesheet_112
+    21300226: egg_hatching_spritesheet_113
+    21300228: egg_hatching_spritesheet_114
+    21300230: egg_hatching_spritesheet_115
+    21300232: egg_hatching_spritesheet_116
+    21300234: egg_hatching_spritesheet_117
+    21300236: egg_hatching_spritesheet_118
+    21300238: egg_hatching_spritesheet_119
+    21300240: egg_hatching_spritesheet_120
+    21300242: egg_hatching_spritesheet_121
+    21300244: egg_hatching_spritesheet_122
+    21300246: egg_hatching_spritesheet_123
+    21300248: egg_hatching_spritesheet_124
+    21300250: egg_hatching_spritesheet_125
+    21300252: egg_hatching_spritesheet_126
+    21300254: egg_hatching_spritesheet_127
+    21300256: egg_hatching_spritesheet_128
+    21300258: egg_hatching_spritesheet_129
+    21300260: egg_hatching_spritesheet_130
+    21300262: egg_hatching_spritesheet_131
+    21300264: egg_hatching_spritesheet_132
+    21300266: egg_hatching_spritesheet_133
+    21300268: egg_hatching_spritesheet_134
+    21300270: egg_hatching_spritesheet_135
+    21300272: egg_hatching_spritesheet_136
+    21300274: egg_hatching_spritesheet_137
+    21300276: egg_hatching_spritesheet_138
+    21300278: egg_hatching_spritesheet_139
+    21300280: egg_hatching_spritesheet_140
+    21300282: egg_hatching_spritesheet_141
+    21300284: egg_hatching_spritesheet_142
+    21300286: egg_hatching_spritesheet_143
+    21300288: egg_hatching_spritesheet_144
+    21300290: egg_hatching_spritesheet_145
+    21300292: egg_hatching_spritesheet_146
+    21300294: egg_hatching_spritesheet_147
+    21300296: egg_hatching_spritesheet_148
+    21300298: egg_hatching_spritesheet_149
+    21300300: egg_hatching_spritesheet_150
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2885
+        width: 188
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527b969537c14ba46913908ce3ab3206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206403b7accc741438f5a913cff81697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2885
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e53f3a0d26ed64f9ee6184c39c3188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2885
+        width: 187
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f4c81944e7be54d98877a0f62d5d02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5409cac44c4bb8c4b90b49134e4f7457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 2885
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecc5d3356384cc4cbeff5d7d1faddbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881e32e4f5eea5341a85022eaa840d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9c33a180d9a664eb5f38d1219525b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 2885
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343eaf8c5bf68548969381577436543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3ba131479b9e4ca1573550590cc69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2885
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729a90feda84e04448f1560aa1d7fcd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 2885
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16dfc9ba1d3a3f4ebe8e0322540e203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2645
+        width: 189
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50cbccac7c23894bb6b4387bbd3a919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2645
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff94acd7f4f32446b1ea92b0901ff0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2645
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c255fd4ed1bb7974a89f73a7dadd7a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2645
+        width: 188
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a68b505da1b004ebc99e71203e36f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 2645
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc551189310d4ed4c96fe9df42dbcc76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 2645
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b7d0f137a65734b818c1844503ff9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2645
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5518058321da524198e457951a34630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 2645
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d99d7262796edb4682e9a08658c3b6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 2645
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29912145454ca4041a24b421f5941b6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 2645
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d3712fbe7a5324ab085f91e2bae5f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2645
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd4c2dd2dd93aa4a94f48ae2a53b0de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 2645
+        width: 187
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e989f5b8581f441850218e7919b0a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2405
+        width: 188
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce2c1518d8f154a8d1a633fbf94c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2405
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4486b5acafd2ec5459ea5fdb685b970d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2405
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c905df6a85f0d949bf6c3c6e9ed656b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2405
+        width: 187
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19199079e1762844be196d6aa6ee954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 2405
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b463c24ac5f4043b2486a045d635dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 2405
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25839700fea17b940911739048c5b642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2405
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b196d316128294b8c1135ad9704700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 2405
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77503c3e067ed76469c5efd0903f0c32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2405
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b5c3abf901304fad90ea522db52b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 2405
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb3a73d01292b4e8a973639c04ac88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2405
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713f529ab713c340a50801bed7a279d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 2405
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebe479d38b93e34e8470836ed03c4f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2165
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede7949176aee804993eb4af20441110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2165
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eb5800efa474c4ca28f6f4b588cae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 2165
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b964da4843740140b8fe1285e17e8d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2165
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6ad96d290657a4da4518e78acd4f71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2165
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662d13628a7027048836957bf7276b1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2165
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042150e2caf338e4d82a76c4cde18b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 2165
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606d1d2687bb76749883c1804d3c4cae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 2165
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e6d7f1b31edd4180c6da0cc57a11b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2165
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cf208155e42fc4f9fdfad64a0b484e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 2165
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3548bd6a30d8264c95a69470a424852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 2165
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7112f6c37caa174fab95b0ca2945eb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 2165
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc4dfb3600b1945926cf37160e27d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1925
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e231a808c894449b582701e66d23b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1925
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3421aaf7a15c0f478d6557d02ddccaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1925
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21c75c06679c240aeda136ea2cab38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1925
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71e06e6ff175d74d9c77270574a86d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1925
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41655533e8a21eb4293a8eed639113ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1925
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d400d6d9ef1366c448bbbf2e2cf067d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1925
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86a59f9b0c02ed4d96cf72a5a70f1bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 1925
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0107d4d280f7343be1cdb1aead9da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1925
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd93cd10a6cd5d74d9138980c4b186df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1925
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b6826816c8f194a9fca251fb748e96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1925
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f424f05d90897ef4eae15cbf447b0e44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1925
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc1c2a19ba1594c9595a7e3faf3979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1685
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e0994fd534f445bcdb2f3748af644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1685
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab556c00f89a854fbbbdbddb168a0ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1685
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ab06fc55be354c8c6759d44f6ec42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1685
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fbbe262579ee346b6eedc84acdd673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1685
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d3b87eafb3694e813ae7b4ffa1bd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1685
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a748f4699365854fb4d5ce5674a7f05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1685
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28e7df58620bdc48b2a42343b2bc382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 1685
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f8ca15afd6ecd46ba4aa84b3aaaa6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1685
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d909e4d1f6cf048b06e94aae497787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1685
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48730cbc2e3c0e4e83ab12e517f302e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1685
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9bcdb801dd8849ac27ec5cdd555dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1685
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f58a6a8de4733040bcb0c486082a359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1445
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1279e3ae34bea834a8ce673c022d23fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1445
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbecef437e88f5478a9048c8fe05237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1445
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9723ef757eb19d44ea446ba9fe9094c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1445
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77368178fef19a44889462cc5c917c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1445
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbd155dfc4e52f44becbb1dc8acaea1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1445
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46608eff0960cfa42976b9aced9d7ab3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1445
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7a6f86dc8339342ad555504dda1219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 1445
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9260af62ba4aae441894b47c45d8f75c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1445
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85808b530339b884da7a0a56b8e5ac9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1445
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd0777f0e49865459e0a54c1ca91ff1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1445
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf47171743dbd8418b1059af209a6dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1445
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a64b92a6bec164b98b48bf7eae80aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1205
+        width: 186
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc558fbad1a1b7e4b864b158f26641b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1205
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c670d6fe1386df245a102ba599f87bb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1205
+        width: 190
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c75d0f482dc2644be66660110c6b91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1432
+        width: 69
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8d642cf3ce68439657eeebe368cd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1200
+        width: 203
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203997ca51053e242a406f714ad82332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1201
+        width: 202
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670bd1a1f7c9a804db86bc9a06bd4a4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1201
+        width: 203
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13939e5dd09669540b30cfa497ece268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1201
+        width: 203
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2227b5aa4d734b4db4dd3ce8e8d1695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 1200
+        width: 218
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a78c831bacf654284b2e691f61fa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1200
+        width: 215
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef2673ba9539142956222786bdf5d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 1200
+        width: 220
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82eaff6988398c4d919f80e8361f39d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 1201
+        width: 218
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae4b8606d6b0a458c3258b0986fa4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1200
+        width: 216
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e2c76ba162f0f4ba664f6fb818b901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 960
+        width: 215
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898ae18347f109643bcbaa5e5046c647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 961
+        width: 218
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a726b43ade1aa4480e2b0da0e39556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 216
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4994a6ba047d24d9c4ea381c3e51cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 961
+        width: 215
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de192c59d31c6249a0f32c643d775c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 217
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6242202a4d797ac4581baefbd5681852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 960
+        width: 216
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f75ca783e80e459996a5ea4d1b7a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 960
+        width: 216
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd7657319e41cb4697b8bf58fe745fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 959
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03125ce2390224f489f5c6b571d7a718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 959
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2dfb26da3a3204d9da327ac48855ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 960
+        width: 216
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d7d5b21ed4dfa4aaa877d02136d32a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 959
+        width: 219
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bddd2c8c680b9249b3df1e8dec4bc8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 960
+        width: 216
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c82416c025e34f8e3271c874a7afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 720
+        width: 216
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348e8562d53d194cb5db70ef4f6c402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 719
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36635989cb64f2244be54f9aafe8f088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 719
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b06cb564c48ecf4a8df7f3645ae5b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 719
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7a30dd8207ca744acb492e481796c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 719
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c728af31460df7c419decf811fd3c44c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 719
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d80a239427ebe42a7852d5df8940ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 719
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b9b773f75a95418d92fc64d38681f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 719
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b54cccfa219fa84cb8bd421749f986e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 719
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c220d086ee64afd418a07e735700ba4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 719
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5da2877abb58f4cb13937e81837018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 720
+        width: 219
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c17c1e682befed47942d2e7430a9d8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 719
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298a9ccbdd352a5449939bf7a2e013b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 479
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05371cacacc315468373c39acc5674f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 479
+        width: 219
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481fc829c394bb34c9cfcbed7311be65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 479
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f7fa2638e4fd49ab15e994f7bd9ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 480
+        width: 217
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc08fc4b4dd83f4ca150ce35020445b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 479
+        width: 218
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca26059f62a804e9c1fb39cb416e7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 479
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5d9d8ce4bec4e4b9ecda82dcdabba3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 479
+        width: 217
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7f04390a518f04986e44d05b5ac923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 480
+        width: 219
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57f15c064437ca4e916c20880de31ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 479
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1f95209fe002e4f9ade5f074e9f418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 479
+        width: 192
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c69f24612813b47ab481b2b1e445d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 481
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a98b96df8d2e4eb937f2888696c9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 492
+        width: 189
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81737c51d7549d419c50d939bf46276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 252
+        width: 192
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4936c3f32d0d0d4aa32d127df5bce10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 252
+        width: 190
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8e453afdd252b48aaab13d261cb1e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 252
+        width: 189
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909f003364f9f304a9359e2cf0b24047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 252
+        width: 189
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defef8881b9badc4c9862bf44aaa73e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 252
+        width: 190
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a1a619054fc9c45bbf87cb32ffdae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 252
+        width: 189
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a647c44dcda4e46b486cdf6a28ca7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 252
+        width: 189
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bb4b25c46ecfe44bfabb68b5daa35d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 252
+        width: 190
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadd8a0a4a253cb46981b878942e684c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 252
+        width: 189
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ca04b101d7bda4fb63b5b18616eb38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 252
+        width: 189
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e9d260181393e42b54f0aedc131527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 252
+        width: 190
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794126f0424469d42b1cce6abaaba481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 252
+        width: 189
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e111cd1427f5c942b51b3235f63fd62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 12
+        width: 185
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9013bb53064a98544a8489c3ffb133fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 12
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b573a411388d07b44a051bb5ef5480bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 12
+        width: 185
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cfdb9201830994dbf5323fed6fa441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 12
+        width: 185
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be85258aea6bb154abff8d78f717a4fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 12
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc4116521acc76479c87cb028ef25b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egg_hatching_spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 12
+        width: 185
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5decb4d12ef204f44ad771f370efc4e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a3d027cc8978d04098c02a2956ab3d4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
