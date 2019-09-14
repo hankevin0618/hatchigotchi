@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HatchingOut : MonoBehaviour
 {
 
     private Animator animator;
+    private float freezeTime = 15f; 
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,12 @@ public class HatchingOut : MonoBehaviour
         else
         {
             animator.SetInteger("AnimState", 1);
+            freezeTime -= Time.deltaTime;
+            if(freezeTime <= 0.0f)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);        
+            }
+            
         }
 
     }
