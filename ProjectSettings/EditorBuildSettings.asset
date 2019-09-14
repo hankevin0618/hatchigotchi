@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/EggStage.unity
     guid: 777441c599e2f364eb5fd80f472f3d9b
   - enabled: 1
+    path: Assets/Scenes/NamingPage.unity
+    guid: c3aeb97cd6b184de3a17fa0c390c441a
+  - enabled: 1
     path: Assets/Scenes/HatchigotchiStage.unity
     guid: 0d0a7d56bf2a3fd4f83d6e011350e322
   m_configObjects: {}
