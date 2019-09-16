@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GetTheName : MonoBehaviour
 {
     [SerializeField] private Text hatchigotchiName;
@@ -16,7 +17,16 @@ public class GetTheName : MonoBehaviour
         hatchigotchiName = GetComponent<Text>();
         inputName = GetComponent<Text>();
         inputName = NamingStageScript.theName;
-        hatchigotchiName.text = inputName.text;
+
+        try{
+            hatchigotchiName.text = inputName.text;
+        }
+        catch(System.Exception ex)
+        {
+            Debug.Log(ex);
+        }
+
+        
     }
 
     void PushName(){
