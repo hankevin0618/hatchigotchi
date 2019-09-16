@@ -48,7 +48,7 @@ public class ObjectsHandler : MonoBehaviour
         
         
 
-        bubbles.SetInteger("CleanAnimState", 1);
+        
 
 
         if(numOfMeats > 0){
