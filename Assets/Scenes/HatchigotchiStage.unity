@@ -533,7 +533,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1214159778}
-        m_MethodName: Poop
+        m_MethodName: Scold
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2332,8 +2332,6 @@ MonoBehaviour:
     type: 3}
   pooHandler: {fileID: 5053617699291049324, guid: 305eb9f717a64354898601f43f2483de,
     type: 3}
-  maxMeats: 3
-  bubbles: {fileID: 0}
 --- !u!1 &1307014117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,6 +3908,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926627773}
   m_CullTransparentMesh: 0
+--- !u!1 &1929663183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929663186}
+  - component: {fileID: 1929663184}
+  m_Layer: 0
+  m_Name: PoopHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1929663184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929663183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b626fd9a4e1ea24b94508001fa7232b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meatHandler: {fileID: 0}
+  pooHandler: {fileID: 5053617699291049324, guid: 305eb9f717a64354898601f43f2483de,
+    type: 3}
+--- !u!4 &1929663186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929663183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.62180746, y: 1.3453764, z: -0.072265625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1930331760
 GameObject:
   m_ObjectHideFlags: 0

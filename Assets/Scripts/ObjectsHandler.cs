@@ -9,7 +9,7 @@ public class ObjectsHandler : MonoBehaviour
     public ObjectsHandler pooHandler;
 
     // Meats variables
-    public int maxMeats = 3;
+    private int maxMeats = 3;
 
     private int numOfMeats = 0;
     private string meatName = "meat(Clone)";
@@ -21,20 +21,16 @@ public class ObjectsHandler : MonoBehaviour
     private int numOfPoos = 0;
     private string pooName = "poo(Clone)";
 
-    private float minXPos = 0f;
-    private float maxXPos = 0f;
-    private float minYPos = 0f;
-    private float maxYPos = 0f;
+    private float minXPos = -2.7f;
+    private float maxXPos =  2.7f;
+    private float minYPos = -1.689f;
+    private float maxYPos = -4.541f;
 
 
     private SpriteRenderer renderer2D;
     private Rigidbody2D body2d;
 
-    public Animator bubbles;
-
-
-
-    private float time = 0f;
+    private float timer = 5f;
     
 
     // Start is called before the first frame update
@@ -48,29 +44,29 @@ public class ObjectsHandler : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        // time += Time.deltaTime;
-
-
+    {  
+        timer -= Time.deltaTime;
         
+        if(timer <= 0.0f){ 
+            Poop(); 
+            timer = 60f; // 5 mins
+        }
     }
 
     public void CleanUp() {
 
-        if(numOfMeats > 0){
-            
-            for(int i = 0; i < numOfMeats; i++)
-            {
-                
-                DestroyImmediate(GameObject.Find(meatName));
-                DestroyImmediate(GameObject.Find(pooName));
-                //Debug.Log("removed meat");
-            }
-            
-            numOfMeats = 0;
-            //Debug.Log("0 meats");
-            
-        }
+        // if(numOfMeats > 0){
+        //     for(int i = 0; i < numOfMeats; i++)
+        //     {  
+        //         DestroyImmediate(GameObject.Find(meatName));
+        //     }
+        //     numOfMeats = 0;
+        // }
+        DestroyImmediate(GameObject.Find(meatName));
+        numOfMeats--;
+        DestroyImmediate(GameObject.Find(pooName));
+        numOfPoos--;
+        
 
 
         
@@ -88,7 +84,7 @@ public class ObjectsHandler : MonoBehaviour
         
     }
 
-    public void Poop() {
+    void Poop() {
 
         /*
         Location limitations
@@ -98,15 +94,28 @@ public class ObjectsHandler : MonoBehaviour
         y: -1.689 ~ -4.541
         
          */
+
         if(numOfPoos < maxPoos){
             numOfPoos++;
-            Vector3 pooPosition = new Vector3(0, 0, 0);
-            var clone = Instantiate(pooHandler, pooPosition, Quaternion.identity);
-            // 밑에 링크타고 랜덤 적용해서 응가가 나타날 수 있게 하는거부터 시작하렴
-            //https://docs.unity3d.com/ScriptReference/Random.Range.html
+            try{
+                
+                Vector3 pooPosition = new Vector3(Random.Range(minXPos, maxXPos), Random.Range(minYPos, maxYPos), 0);
+                var clone = Instantiate(pooHandler, pooPosition, Quaternion.identity);
+            }
+            catch(System.Exception ex)
+            {
+                Debug.Log(ex);
+            }
+            
+            
         } else{
             //something bad thing happens
         }
+    }
+
+        public void Scold() {
+        timer -= 10;
+        
     }
 
 }
