@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 56912d891e48c2d4ca3deea45a0fb36e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: meat-eaten-anim_spritesheet 1_0
+    21300002: meat-eaten-anim_spritesheet 1_1
+    21300004: meat-eaten-anim_spritesheet 1_2
+    21300006: meat-eaten-anim_spritesheet 1_3
+    21300008: meat-eaten-anim_spritesheet 1_4
+    21300010: meat-eaten-anim_spritesheet 1_5
+    21300012: meat-eaten-anim_spritesheet 1_6
+    21300014: meat-eaten-anim_spritesheet 1_7
+    21300016: meat-eaten-anim_spritesheet 1_8
+    21300018: meat-eaten-anim_spritesheet 1_9
+    21300020: meat-eaten-anim_spritesheet 1_10
+    21300022: meat-eaten-anim_spritesheet 1_11
+    21300024: meat-eaten-anim_spritesheet 1_12
+    21300026: meat-eaten-anim_spritesheet 1_13
+    21300028: meat-eaten-anim_spritesheet 1_14
+    21300030: meat-eaten-anim_spritesheet 1_15
+    21300032: meat-eaten-anim_spritesheet 1_16
+    21300034: meat-eaten-anim_spritesheet 1_17
+    21300036: meat-eaten-anim_spritesheet 1_18
+    21300038: meat-eaten-anim_spritesheet 1_19
+    21300040: meat-eaten-anim_spritesheet 1_20
+    21300042: meat-eaten-anim_spritesheet 1_21
+    21300044: meat-eaten-anim_spritesheet 1_22
+    21300046: meat-eaten-anim_spritesheet 1_23
+    21300048: meat-eaten-anim_spritesheet 1_24
+    21300050: meat-eaten-anim_spritesheet 1_25
+    21300052: meat-eaten-anim_spritesheet 1_26
+    21300054: meat-eaten-anim_spritesheet 1_27
+    21300056: meat-eaten-anim_spritesheet 1_28
+    21300058: meat-eaten-anim_spritesheet 1_29
+    21300060: meat-eaten-anim_spritesheet 1_30
+    21300062: meat-eaten-anim_spritesheet 1_31
+    21300064: meat-eaten-anim_spritesheet 1_32
+    21300066: meat-eaten-anim_spritesheet 1_33
+    21300068: meat-eaten-anim_spritesheet 1_34
+    21300070: meat-eaten-anim_spritesheet 1_35
+    21300072: meat-eaten-anim_spritesheet 1_36
+    21300074: meat-eaten-anim_spritesheet 1_37
+    21300076: meat-eaten-anim_spritesheet 1_38
+    21300078: meat-eaten-anim_spritesheet 1_39
+    21300080: meat-eaten-anim_spritesheet 1_40
+    21300082: meat-eaten-anim_spritesheet 1_41
+    21300084: meat-eaten-anim_spritesheet 1_42
+    21300086: meat-eaten-anim_spritesheet 1_43
+    21300088: meat-eaten-anim_spritesheet 1_44
+    21300090: meat-eaten-anim_spritesheet 1_45
+    21300092: meat-eaten-anim_spritesheet 1_46
+    21300094: meat-eaten-anim_spritesheet 1_47
+    21300096: meat-eaten-anim_spritesheet 1_48
+    21300098: meat-eaten-anim_spritesheet 1_49
+    21300100: meat-eaten-anim_spritesheet 1_50
+    21300102: meat-eaten-anim_spritesheet 1_51
+    21300104: meat-eaten-anim_spritesheet 1_52
+    21300106: meat-eaten-anim_spritesheet 1_53
+    21300108: meat-eaten-anim_spritesheet 1_54
+    21300110: meat-eaten-anim_spritesheet 1_55
+    21300112: meat-eaten-anim_spritesheet 1_56
+    21300114: meat-eaten-anim_spritesheet 1_57
+    21300116: meat-eaten-anim_spritesheet 1_58
+    21300118: meat-eaten-anim_spritesheet 1_59
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +129,1242 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d2aed324686fd418a45c802e3758cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c7940dce733449b1ab8c940fdb8b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ea7cecd16dee34795a0833317665df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af305c504d762f459aaed11bf77a9b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a20f3bee742dc4cb68b507bf391d1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc3915f5c182e4fbe2ce3c426b8f6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9338de73b705ab24eb59ab37f649f182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ea5205801a99f4592f55415748014e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6612e3a005b5ac04ab25ef08ed57a9d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add9aacb3bdef4408243024eb20adfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 1019
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b3c62109c5dcd40be44631a8118fb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 1019
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6087922bc1a463f46b386b91365fba87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 781
+        width: 129
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420ef066c3e317940aa5220002ec7c96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 781
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e88e4ea4abebed4ca05d963495882d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 781
+        width: 132
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a63dca272c0b14cb655179bc45c9c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 781
+        width: 126
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb8907e67a5a1c41b5e48ee16d1acea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 781
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c2f674946a7c4098b710b889fc532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 781
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562ec52be77e69438a74357788d724a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 781
+        width: 126
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f1a58f33bcff14ba5f4daafdc43451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 781
+        width: 128
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bd3c3548f03a64fb133d6095fe293a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 2658
+        y: 781
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d475ee840026164bb8f88cafff18699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 781
+        width: 125
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eabe11813213444b86ea2b00020c0e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 783
+        width: 118
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc043d4b76f71324197d1170f7c83eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 783
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ca0f13194c46643890c8aca31468e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 543
+        width: 118
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cbc2cc4d9d42a438e859c7c27a07bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 543
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b573f9f8cb0244b899a264ffceb1c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 543
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e74021ee487b054cafd3f00c6ee5644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 543
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29448ebc77592dc41ab141b8a30db77f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 544
+        width: 116
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad168cdadb321e44b95fc54fd8c84863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 550
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a342ee3d92b074a90d60d95f7fc96a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 550
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edd1f9d42fb5a7468eebfcbdb418d9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 550
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b25fed91508344b7e2c72129c9325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 550
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd339cd07e703f146b0449d68c2ec678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 550
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb06afba07799a847978137acfb1bba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 550
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c39959f57a28c4983b959126dd4e7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 550
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272b5253f12fa5242be582b0fa40cad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 310
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffe1fc8e1e019c4a9e1558c379b6cf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 310
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e823789549f292d459b71ec039eaf20a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 310
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf43655f71f6de94283226805885c19f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 310
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782df8c21f75ce4438c368384e03ff7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 310
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc76f16ae7ca894a873b26d98e98ff0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 310
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dea311e3169604eb3486f06234a51f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 310
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000416bce49ded347b80f5c5d715c8d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 310
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765ee691bdc2064a849912f9efd7606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 310
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c117ad716d61d4fbf0456186bd42a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 310
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b720b1ac971149b7f47deffac8e59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 310
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1bbab0bb8bee84a8021f766e7a8802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 310
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53987e892392c494b8dbf91b3f6582be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3b23d71fa2ab341a1154c8355a7af0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 70
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2103921c31d9b7c41b78d0e2b4e528a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 70
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e518f6420e3c4b0408604fe938602938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 70
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89be47cce7e6d8b4da59c1076dab2c99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 70
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8751fa2b176fb47921f2d9f52a8e6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 70
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbca42bdd746be64783779e3d8cb04a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 70
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017cd72d4793194081847f8f883827b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 70
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ce69222357c1343bc90a8c05de040e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 70
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d386569d52290fb4ba57081bde8c01fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 70
+        width: 113
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a471da289bba48b4afcfdf6522e93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 70
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9e60cafeba6649ba6563dde96c7ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meat-eaten-anim_spritesheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 70
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b865f4e807a44a4d9eb2b0e8b61f4ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

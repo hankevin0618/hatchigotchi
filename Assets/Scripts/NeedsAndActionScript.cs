@@ -12,19 +12,33 @@ public class NeedsAndActionScript : MonoBehaviour
     // 혼냈을때 약간의 변화도 필요.
     private Animator animator;
 
-    private int hungerMeter;
+    private static int hungerMeter;
+    private bool hungry = false;
+
     private int happinessMeter;
+    private bool happy = true;
+
     private int borednessMeter;
+    private bool bored = false;
+
+
+
+    private int moderateValue = 50;
     private int maxValue = 100;
 
-    private float timer = 5f;
+
+    // Game objects
+    private string meatName = "meat(Clone)";
+
+    private float animTimer = 5f;
+    private float hungerTimer = 5f;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        hungerMeter = maxValue;
-        happinessMeter = maxValue;
-        borednessMeter = maxValue;
+        hungerMeter = moderateValue;
+        happinessMeter = moderateValue;
+        borednessMeter = moderateValue;
         
     }
 
@@ -32,24 +46,33 @@ public class NeedsAndActionScript : MonoBehaviour
     void Update()
     {
         
-        timer -= Time.deltaTime;
-        if(timer <= 0.0f)
-        {
-            int x = Random.Range(0,3);
+        AnimHandler();
+        HungerHandler();
 
-            switch(x)
+    }
+
+
+    void AnimHandler()
+    {
+        animTimer -= Time.deltaTime;
+        if(animTimer <= 0.0f)
+        {
+            int AnimState = Random.Range(0,3);
+
+            switch(AnimState)
 
             {
 
+                // Scold & fear / angry
                 case 2:
-                Debug.Log("It is 2");
+                Debug.Log("It is 2 -- eat");
+                animator.SetInteger("HGAnimState", 0);
                 break;
 
                 
                 // Happy Dance
                 case 1:
-                Debug.Log("It is 1");
-                animator.SetInteger("HGAnimState", 1);
+                HappyAction();
                 break;
 
                 case 0:
@@ -65,17 +88,89 @@ public class NeedsAndActionScript : MonoBehaviour
 
             }
 
-            timer = 10f;
+            animTimer = 10f;
         }
-        
-        
     }
 
-    void HappyAction() {
-        float freezeTime = 5;
+    void HungerHandler()
+    {
+        int hungryPoint = 30;
+        int fullPoint = 80;
+        hungerTimer -= Time.deltaTime;
+
+        if(hungry)
+        {
+            Eat();
+        }
+
+        if(hungerTimer <= 0.0f)
+        {
+            hungerMeter--;
+            hungerTimer = 5f;
+            Debug.Log("current hunger meter is: " + hungerMeter);
+        }
+
+        if(hungerMeter <= hungryPoint)
+        {
+            hungry = true;
+            // and give angry point
+        }
+        else if(hungerMeter > hungryPoint && hungerMeter <= fullPoint)
+        {  // just hungry
+            hungry = true;
+
+        }
+        else if(hungerMeter > fullPoint)
+        {
+            hungry = false;
+            // give some happiness
+        }
+        else if(hungerMeter > maxValue)
+        {
+            hungerMeter = maxValue;
+        }
+
+    }
+
+
+    
+    void HappyAction() {        
         
-        Debug.Log("DanceTime!");
+        if(happy)
+        {
+            animator.SetInteger("HGAnimState", 1);
+        }
+        else if(!happy)
+        {
+            // something bad
+            ObjectsHandler.poopTimer -= 1;
+        }
+
+    }
+
+    void Eat() {
+
+        try
+        {
+            if(hungry && GameObject.Find(meatName))
+            {   
+                
+                if(!EatItScript.turnEat)
+                {
+                    hungerMeter += 10;
+                    happinessMeter += 10;
+                }
+                
+                EatItScript.turnEat = true;
+                ObjectsHandler.poopTimer -= 1;
+
+            }
+        }
+        catch(System.NullReferenceException ex)
+        {
+            Debug.Log(ex);
+        }
+
         
-        freezeTime -= Time.deltaTime;
     }
 }

@@ -30,7 +30,7 @@ public class ObjectsHandler : MonoBehaviour
     private SpriteRenderer renderer2D;
     private Rigidbody2D body2d;
 
-    private float timer = 5f;
+    public static float poopTimer = 60f;
     
 
     // Start is called before the first frame update
@@ -45,11 +45,11 @@ public class ObjectsHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {  
-        timer -= Time.deltaTime;
+        poopTimer -= Time.deltaTime;
         
-        if(timer <= 0.0f){ 
+        if(poopTimer <= 0.0f){ 
             Poop(); 
-            timer = 60f; // 5 mins
+            poopTimer = 350f; // 5 mins
         }
     }
 
@@ -62,10 +62,20 @@ public class ObjectsHandler : MonoBehaviour
         //     }
         //     numOfMeats = 0;
         // }
-        DestroyImmediate(GameObject.Find(meatName));
-        numOfMeats--;
+        
+        
+        if(numOfMeats > 0)
+        {
+            numOfMeats--;
+            DestroyImmediate(GameObject.Find(meatName));
+        }
+
+        if(numOfPoos > 0)
+        {
+            numOfPoos--;
+            DestroyImmediate(GameObject.Find(pooName));
+        }
         DestroyImmediate(GameObject.Find(pooName));
-        numOfPoos--;
         
 
 
@@ -114,7 +124,7 @@ public class ObjectsHandler : MonoBehaviour
     }
 
         public void Scold() {
-        timer -= 10;
+        poopTimer -= 10;
         
     }
 
