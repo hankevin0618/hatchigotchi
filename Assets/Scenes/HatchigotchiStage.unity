@@ -3950,7 +3950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b626fd9a4e1ea24b94508001fa7232b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meatHandler: {fileID: 0}
+  meatHandler: {fileID: 1945438605913092372, guid: 37ca520490c1c404e88a53c60ea57966,
+    type: 3}
   pooHandler: {fileID: 5053617699291049324, guid: 305eb9f717a64354898601f43f2483de,
     type: 3}
 --- !u!4 &1929663186

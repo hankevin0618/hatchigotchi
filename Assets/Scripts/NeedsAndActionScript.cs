@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class NeedsAndActionScript : MonoBehaviour
 {
-    // 확률에 따라 애니메이션이 바꾸는거까지 구현완료
-    // 이거 다음은 이제 기분을 만들어서 기분에 따라 애니메이션의
-    // 범위가 정해지는 것과,
-    // 배가 고프면 음식을 먹고 안고프면 안먹고, 음식을 먹으면
-    // 응가싸는 시간이 줄어드는 걸 구현.
-    // 혼냈을때 약간의 변화도 필요.
-    private Animator animator;
+    // 행복미터기 -- 완
+    // 잠자기와 자는 모습
+    // 혼날떄 슬픈 얼굴
+    // 혼나야하는 상황?
+    // 저장하기
+    // 에그 코드 인식하기 
+    public static Animator HGAnimator;
 
     private static int hungerMeter;
     private bool hungry = false;
 
-    private int happinessMeter;
-    private bool happy = true;
+    public static int happinessMeter;
+    public static bool happy = true;
 
     private int borednessMeter;
     private bool bored = false;
@@ -32,10 +32,18 @@ public class NeedsAndActionScript : MonoBehaviour
 
     private float animTimer = 5f;
     private float hungerTimer = 5f;
+    private float happinessTimer = 5f;
+
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
+        HGAnimator = GetComponent<Animator>();
         hungerMeter = moderateValue;
         happinessMeter = moderateValue;
         borednessMeter = moderateValue;
@@ -48,6 +56,7 @@ public class NeedsAndActionScript : MonoBehaviour
         
         AnimHandler();
         HungerHandler();
+        HappinessHandler();
 
     }
 
@@ -65,24 +74,24 @@ public class NeedsAndActionScript : MonoBehaviour
 
                 // Scold & fear / angry
                 case 2:
-                Debug.Log("It is 2 -- eat");
-                animator.SetInteger("HGAnimState", 0);
+                HGAnimator.SetInteger("HGAnimState", 0);
                 break;
 
                 
-                // Happy Dance
+                // happy or unhappy
                 case 1:
                 HappyAction();
+                
                 break;
 
                 case 0:
                 Debug.Log("It is 0");
-                animator.SetInteger("HGAnimState", 0);
+                HGAnimator.SetInteger("HGAnimState", 0);
                 break;
 
 
                 default:
-                animator.SetInteger("HGAnimState", 0);
+                HGAnimator.SetInteger("HGAnimState", 0);
                 break;
 
 
@@ -138,11 +147,11 @@ public class NeedsAndActionScript : MonoBehaviour
         
         if(happy)
         {
-            animator.SetInteger("HGAnimState", 1);
+            HGAnimator.SetInteger("HGAnimState", 1);
         }
         else if(!happy)
         {
-            // something bad
+            HGAnimator.SetInteger("HGAnimState", 2);
             ObjectsHandler.poopTimer -= 1;
         }
 
@@ -159,10 +168,13 @@ public class NeedsAndActionScript : MonoBehaviour
                 {
                     hungerMeter += 10;
                     happinessMeter += 10;
+                    ObjectsHandler.poopTimer -= 1;
+                     Debug.Log("Current Poop Timer is: " + ObjectsHandler.poopTimer);
                 }
                 
                 EatItScript.turnEat = true;
-                ObjectsHandler.poopTimer -= 1;
+                
+               
 
             }
         }
@@ -173,4 +185,45 @@ public class NeedsAndActionScript : MonoBehaviour
 
         
     }
+
+
+    void HappinessHandler()
+    {
+
+        int unhappyPoint = 40;
+        int happyPoint = 80;
+        happinessTimer -= Time.deltaTime;
+
+        if(happinessTimer <= 0.0f)
+        {
+            happinessMeter--;
+            happinessTimer = 5f;
+            Debug.Log("current happiness meter is: " + happinessMeter);
+        }
+
+        if(happinessMeter < unhappyPoint)
+        {
+            // unhappy anim
+            happy = false;
+        }
+        else if(happinessMeter > unhappyPoint && happinessMeter < happyPoint)
+        {
+            happy = true;
+        }
+        else if(happinessMeter > happyPoint)
+        {
+            happy = true;
+            borednessMeter += 1;
+            
+            // very happy animation
+        }
+        else if(happinessMeter > maxValue)
+        {
+            happinessMeter = maxValue;
+        } 
+        
+    }
+
+    
+
 }

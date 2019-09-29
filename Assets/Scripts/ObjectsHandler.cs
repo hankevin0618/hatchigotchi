@@ -27,6 +27,7 @@ public class ObjectsHandler : MonoBehaviour
     private float maxYPos = -4.541f;
 
 
+
     private SpriteRenderer renderer2D;
     private Rigidbody2D body2d;
 
@@ -38,8 +39,8 @@ public class ObjectsHandler : MonoBehaviour
     {
         renderer2D = GetComponent<SpriteRenderer>();
         body2d = GetComponent<Rigidbody2D>();
-        
-        
+
+      
     }
 
     // Update is called once per frame
@@ -123,9 +124,20 @@ public class ObjectsHandler : MonoBehaviour
         }
     }
 
-        public void Scold() {
-        poopTimer -= 10;
+        public void Scold() 
+    {
+
+        poopTimer -= 3;
+        NeedsAndActionScript.happinessMeter -= 5;
+        if(NeedsAndActionScript.happy == false)
+        {
+            // Get mad
+            NeedsAndActionScript.HGAnimator.SetInteger("HGAnimState", 3);
+        }
+        
+
         
     }
+
 
 }
