@@ -6,13 +6,15 @@ public class NeedsAndActionScript : MonoBehaviour
 {
 
 
-    // 잠자기
+
     // 혼나야하는 상황?
     // 저장하기
     // 유저와의 본딩? prefab으로 선물이나 행동을 얻을 수 있음
-    // expression - unhappy and stressed 차이 조정.
-    // sleep timer를 좀 길게 조정해놓고, 다른 액션들로 감소시키기
-    // 자는동안 다른 액션들 제한하기
+
+    // --- 밑에꺼만 완료하고 자기
+    // expression - unhappy and stressed 차이 조정. -- 완
+    // sleep timer를 좀 길게 조정해놓고, 다른 액션들로 감소시키기 -- 완
+    // 자는동안 다른 액션들 제한하기 -- 완
 
     public static Animator HGAnimator;
 
@@ -33,9 +35,9 @@ public class NeedsAndActionScript : MonoBehaviour
     // Sleepness variables
     public static int sleepinessMeter;
     private bool sleepy = false;
-    private bool inSleep = false;
-
+    public static bool inSleep = false;
     private int sleepAmount;
+    public static bool wakeUp = false;
 
     // General variables
     private int moderateValue = 50;
@@ -67,7 +69,7 @@ public class NeedsAndActionScript : MonoBehaviour
         hungerMeter = moderateValue;
         happinessMeter = moderateValue;
         playfulMeter = moderateValue;
-        sleepinessMeter = 10;
+        sleepinessMeter = moderateValue;
         
     }
 
@@ -127,7 +129,7 @@ public class NeedsAndActionScript : MonoBehaviour
 
     void HungerHandler()
     {
-        int hungryPoint = 30;
+        int hungryPoint = 20;
         int fullPoint = 80;
         hungerTimer -= Time.deltaTime;
 
@@ -193,6 +195,8 @@ public class NeedsAndActionScript : MonoBehaviour
             ObjectsHandler.poopTimer -= 1;
         }
 
+        inSleep = false;
+
 
     }
 
@@ -207,8 +211,9 @@ public class NeedsAndActionScript : MonoBehaviour
                 {
                     hungerMeter += 10;
                     happinessMeter += 10;
+                    sleepinessMeter -= 1;
                     ObjectsHandler.poopTimer -= 1;
-                     Debug.Log("Current Poop Timer is: " + ObjectsHandler.poopTimer);
+                    Debug.Log("Current Poop Timer is: " + ObjectsHandler.poopTimer);
                 }
                 
                 EatItScript.turnEat = true;
@@ -268,7 +273,7 @@ public class NeedsAndActionScript : MonoBehaviour
 
     void PlayfulHandler()
     {
-        int boredPoint = 30;
+        int boredPoint = 20;
         int playfulPoint = 80;
         playfulTimer -= Time.deltaTime;
         
@@ -334,6 +339,7 @@ public class NeedsAndActionScript : MonoBehaviour
         else if(sleepinessMeter > sleepyPoint)
         {
             sleepy = false;
+            happinessTimer -= 1;
             
         }
 
@@ -363,6 +369,7 @@ public class NeedsAndActionScript : MonoBehaviour
             happinessTimer += sleepAmount;
 
             inSleep = true;
+            wakeUp = false;
                  
         }
         else
@@ -370,6 +377,7 @@ public class NeedsAndActionScript : MonoBehaviour
             HGAnimator.SetInteger("HGAnimState", 0);
             animTimer = 10f;
             inSleep = false;
+            wakeUp = true;
         }
 
         // else, default
@@ -382,7 +390,8 @@ public class NeedsAndActionScript : MonoBehaviour
         if(inSleep)
         {
             inSleepTimer -= Time.deltaTime;
-            if(inSleepTimer <= 0.0f)
+            
+            if(inSleepTimer <= 0.0f && !wakeUp)
             {
                 Debug.Log("animTimer: " + animTimer);
                 happinessMeter += 1;
@@ -391,10 +400,17 @@ public class NeedsAndActionScript : MonoBehaviour
                 Debug.Log("sleepinessMeter: " + sleepinessMeter);
                 inSleepTimer = 5f;
             }
+            if(wakeUp)
+            {
+                animTimer = 5f;
+                ObjectsHandler.poopTimer = 5f;
+                playfulTimer = 5f;
+                hungerTimer = 5f;
+                sleepinessTimer = 5f;
+                happinessTimer = 5f;
+                inSleep = false;
+            }
         } 
-                 
-
-        
     }
     
 
