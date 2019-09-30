@@ -129,14 +129,15 @@ public class ObjectsHandler : MonoBehaviour
 
         poopTimer -= 3;
         NeedsAndActionScript.happinessMeter -= 5;
-        if(NeedsAndActionScript.happy == false)
-        {
-            // Get mad
-            NeedsAndActionScript.HGAnimator.SetInteger("HGAnimState", 3);
-        }
-        
+        NeedsAndActionScript.HGAnimator.SetInteger("HGAnimState", 3);
+    }
 
-        
+    public void Play()
+    {
+        NeedsAndActionScript.happinessMeter += 3;
+        NeedsAndActionScript.playfulMeter += 7;
+        NeedsAndActionScript.HGAnimator.SetInteger("HGAnimState", 5);
+
     }
 
 
