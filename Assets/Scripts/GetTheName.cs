@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GetTheName : MonoBehaviour
 {
-    [SerializeField] private Text hatchigotchiName;
+    public static Text hatchigotchiName;
     private Text inputName;
 
 

@@ -19,7 +19,7 @@ public class NeedsAndActionScript : MonoBehaviour
     public static Animator HGAnimator;
 
     // Hunger variables
-    private static int hungerMeter;
+    public static int hungerMeter;
     private bool hungry = false;
 
     // Happiness variables

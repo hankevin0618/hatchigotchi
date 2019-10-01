@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 300047727}
   - component: {fileID: 300047726}
   - component: {fileID: 300047725}
+  - component: {fileID: 300047728}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -344,8 +345,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1135336474}
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 300047728}
+        m_MethodName: LoadHatchigotchi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -394,6 +395,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300047723}
   m_CullTransparentMesh: 0
+--- !u!114 &300047728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300047723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82f3cdc9db43b846a395d6904d1e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  age: 0
+  name: 
 --- !u!1 &799252960
 GameObject:
   m_ObjectHideFlags: 0
