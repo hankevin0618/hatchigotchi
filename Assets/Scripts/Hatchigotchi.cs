@@ -8,7 +8,7 @@ public class Hatchigotchi : MonoBehaviour
 {
     public int age = 10;
     public string name;
-    public int currentScene = 4;
+    public static int currentScene = 2;
     public Text nameGetter;
 
     public int hungerMeter;

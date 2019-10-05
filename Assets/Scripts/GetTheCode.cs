@@ -14,7 +14,8 @@ public class GetTheCode : MonoBehaviour
     private string validCode = "AwesomeHatchigotchi1234";
     private string devValidCode = "1";
 
-    public static float hatchTimer = 3000;
+    public static bool newUser = false;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -39,12 +40,7 @@ public class GetTheCode : MonoBehaviour
         {
             // next scene
             theCodeInput.textComponent.color = greenColor;
-            TimeMaster.instance.SaveDate();
-            hatchTimer = 3000;
-            hatchTimer -= TimeMaster.instance.CheckDate();
-            
-            print("Hatchi Timer is: " + hatchTimer);
-            
+            newUser = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         } else if(theCodeInput.text != validCode)

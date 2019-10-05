@@ -436,8 +436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1222662853}
-  mainTimer: 3000
-  thisEgg: {fileID: 599377688}
 --- !u!4 &557447665
 Transform:
   m_ObjectHideFlags: 0

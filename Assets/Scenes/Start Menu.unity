@@ -277,7 +277,6 @@ GameObject:
   - component: {fileID: 300047727}
   - component: {fileID: 300047726}
   - component: {fileID: 300047725}
-  - component: {fileID: 300047728}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -345,7 +344,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 300047728}
+      - m_Target: {fileID: 1135336475}
         m_MethodName: LoadHatchigotchi
         m_Mode: 1
         m_Arguments:
@@ -395,20 +394,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300047723}
   m_CullTransparentMesh: 0
---- !u!114 &300047728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300047723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d82f3cdc9db43b846a395d6904d1e5fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  age: 0
-  name: 
 --- !u!1 &799252960
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135336473}
   - component: {fileID: 1135336474}
+  - component: {fileID: 1135336475}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -604,6 +590,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75df2c1d718db74eb88b2c20cbf072a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1135336475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135336472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82f3cdc9db43b846a395d6904d1e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  age: 10
+  name: 
+  nameGetter: {fileID: 0}
+  hungerMeter: 0
+  happinessMeter: 0
+  playfulMeter: 0
+  sleepinessMeter: 0
 --- !u!1 &1210661905
 GameObject:
   m_ObjectHideFlags: 0

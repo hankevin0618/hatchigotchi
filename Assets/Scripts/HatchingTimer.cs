@@ -10,21 +10,23 @@ public class HatchingTimer : MonoBehaviour
     [SerializeField] private Text timerText;
 
     private Animator animator;
-
+    public static float hatchTimer = 3000;
     public static bool hatchIt = false;
     
-    public bool newUser;
+    
 
     
 
     void Start() {
-        if(newUser) // from GetTheCode.cs
+        if(GetTheCode.newUser) // from GetTheCode.cs
         {
             TimeMaster.instance.SaveDate();
-            GetTheCode.hatchTimer = 3000;
+            hatchTimer = 3000;
+            GetTheCode.newUser = false;
+            
         } 
 
-         GetTheCode.hatchTimer -= TimeMaster.instance.CheckDate();
+         hatchTimer -= TimeMaster.instance.CheckDate();
         
         
 
@@ -33,24 +35,24 @@ public class HatchingTimer : MonoBehaviour
 
     void Update() 
     {
-        print(GetTheCode.hatchTimer);
-        if(GetTheCode.hatchTimer >= 0.0f && !hatchIt)
+
+        if(hatchTimer >= 0.0f && !hatchIt)
         {
             //timer -= TimeMaster.instance.CheckDate();
-            GetTheCode.hatchTimer -= Time.deltaTime;
+            hatchTimer -= Time.deltaTime;
             
-            timerText.text = "Hatching in: " + GetTheCode.hatchTimer.ToString("0") + "s"; // f converts float to string
+            timerText.text = "Hatching in: " + hatchTimer.ToString("0") + "s"; // f converts float to string
             
-            if(GetTheCode.hatchTimer <= 0.0f){
+            if(hatchTimer <= 0.0f){
                 hatchIt = true;
             }
 
         }
-        else if(GetTheCode.hatchTimer <= 0.0f || hatchIt == true) // we dont count anymore
+        else if(hatchTimer <= 0.0f || hatchIt == true) // we dont count anymore
         {
             
             timerText.text = "Hatching Now!";
-            GetTheCode.hatchTimer = 0.0f;
+            hatchTimer = 0.0f;
 
         }
 
