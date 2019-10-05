@@ -8,25 +8,24 @@ public class HatchingTimer : MonoBehaviour
 {
     // make visible in the inspector
     [SerializeField] private Text timerText;
-    [SerializeField] private float mainTimer = 0;
-
-    [SerializeField] private Sprite thisEgg;
 
     private Animator animator;
 
     public static bool hatchIt = false;
-    private float timer;
-    private bool canCount = true;
-    private bool doOnce = false;
-
     
+    public bool newUser;
 
     
 
     void Start() {
-        timer = mainTimer;
+        if(newUser) // from GetTheCode.cs
+        {
+            TimeMaster.instance.SaveDate();
+            GetTheCode.hatchTimer = 3000;
+        } 
+
+         GetTheCode.hatchTimer -= TimeMaster.instance.CheckDate();
         
-        thisEgg = GetComponent<Sprite>();
         
 
     }
@@ -34,28 +33,31 @@ public class HatchingTimer : MonoBehaviour
 
     void Update() 
     {
-        if(timer >= 0.0f && canCount && !hatchIt)
+        print(GetTheCode.hatchTimer);
+        if(GetTheCode.hatchTimer >= 0.0f && !hatchIt)
         {
-            timer -= Time.deltaTime;
+            //timer -= TimeMaster.instance.CheckDate();
+            GetTheCode.hatchTimer -= Time.deltaTime;
             
-            timerText.text = "Hatching in: " + timer.ToString("0") + "s"; // f converts float to string
+            timerText.text = "Hatching in: " + GetTheCode.hatchTimer.ToString("0") + "s"; // f converts float to string
             
-            if(timer <= 0.0f){
+            if(GetTheCode.hatchTimer <= 0.0f){
                 hatchIt = true;
             }
 
         }
-        else if(timer <= 0.0f || hatchIt == true) // we dont count anymore
+        else if(GetTheCode.hatchTimer <= 0.0f || hatchIt == true) // we dont count anymore
         {
-            canCount = false;
             
             timerText.text = "Hatching Now!";
-            timer = 0.0f;
+            GetTheCode.hatchTimer = 0.0f;
 
         }
 
         
     }
+
+
 
 
 
