@@ -9,7 +9,7 @@ public class InstructionPageScript : MonoBehaviour
     [SerializeField]private GameObject page2;
     [SerializeField]private GameObject page3;
     [SerializeField]private GameObject page4;
-    [SerializeField]private GameObject page5;
+ 
 
     void Start()
     {
@@ -17,7 +17,7 @@ public class InstructionPageScript : MonoBehaviour
         page2.SetActive(false);
         page3.SetActive(false);
         page4.SetActive(false);
-        page5.SetActive(false);
+        
     }
 
     public void NextPage()
@@ -41,21 +41,12 @@ public class InstructionPageScript : MonoBehaviour
             page4.SetActive(true);
         }
 
-        else if(page4.activeInHierarchy)
-        {
-            page4.SetActive(false);
-            page5.SetActive(true);
-        }
     }
 
     public void BackPage()
     {
-        if(page5.activeInHierarchy)
-        {
-            page5.SetActive(false);
-            page4.SetActive(true);
-        }
-        else if (page4.activeInHierarchy)
+
+        if (page4.activeInHierarchy)
         {
             page4.SetActive(false);
             page3.SetActive(true);
