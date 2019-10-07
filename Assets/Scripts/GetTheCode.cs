@@ -39,6 +39,7 @@ public class GetTheCode : MonoBehaviour
         if(theCodeInput.text == validCode || theCodeInput.text == devValidCode)
         {
             // next scene
+            HatchigotchiData.currentScene = 2;
             theCodeInput.textComponent.color = greenColor;
             newUser = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

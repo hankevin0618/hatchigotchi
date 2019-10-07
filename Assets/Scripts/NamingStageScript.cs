@@ -20,6 +20,7 @@ public class NamingStageScript : MonoBehaviour
     }
     public void ToNextScene()
     {
+        HatchigotchiData.currentScene = 4;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     

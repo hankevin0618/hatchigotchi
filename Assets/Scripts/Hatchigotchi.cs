@@ -8,7 +8,7 @@ public class Hatchigotchi : MonoBehaviour
 {
     public int age = 10;
     public string name;
-    public static int currentScene = 2;
+    public int currentScene;
     public Text nameGetter;
 
     public int hungerMeter;
@@ -22,7 +22,6 @@ public class Hatchigotchi : MonoBehaviour
     public void SaveHatchigotchi()
     {
         name = nameGetter.text;
-        
         age = 10;
         hungerMeter = NeedsAndActionScript.hungerMeter;
         happinessMeter = NeedsAndActionScript.happinessMeter;
@@ -33,18 +32,27 @@ public class Hatchigotchi : MonoBehaviour
     }
     public void LoadHatchigotchi()
     {
-        SceneManager.LoadScene(currentScene);
-        HatchigotchiData data = SaveSystem.LoadHatchigotchi();
+        try
+        {
+            SceneManager.LoadScene(HatchigotchiData.currentScene);
+            HatchigotchiData data = SaveSystem.LoadHatchigotchi();
 
-        // 저장이 다 되는데 로드도 되는데 씬 들어가서 업데이트가 안됨.
-        // 덮어씌워지질 않나봄
-        // 껐다 키면 이름도 지워짐. 그러나 데이터는 남아있음
-        name = data.name; // 이거부터 구현하면 될듯.
-        age = data.age;
-        NeedsAndActionScript.hungerMeter = data.hungerMeter;
-        happinessMeter = data.happinessMeter;
-        playfulMeter = data.playfulMeter;
-        sleepinessMeter = data.sleepinessMeter;
+            // 저장이 다 되는데 로드도 되는데 씬 들어가서 업데이트가 안됨.
+            // 덮어씌워지질 않나봄
+            // 껐다 키면 이름도 지워짐. 그러나 데이터는 남아있음
+            name = data.name; // 이거부터 구현하면 될듯.
+            age = data.age;
+            NeedsAndActionScript.hungerMeter = data.hungerMeter;
+            happinessMeter = data.happinessMeter;
+            playfulMeter = data.playfulMeter;
+            sleepinessMeter = data.sleepinessMeter;
+        }
+        catch (System.Exception ex)
+        {
+            Debug.Log(ex);
+            throw ex;
+        }
+        
 
         
 

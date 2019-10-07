@@ -27,6 +27,7 @@ public class HatchingOut : MonoBehaviour
             freezeTime -= Time.deltaTime;
             if(freezeTime <= 0.0f)
             {
+                
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);        
             }
             
