@@ -11,10 +11,6 @@ public class NeedsAndActionScript : MonoBehaviour
     // 저장하기
     // 유저와의 본딩? prefab으로 선물이나 행동을 얻을 수 있음
 
-    // --- 밑에꺼만 완료하고 자기
-    // expression - unhappy and stressed 차이 조정. -- 완
-    // sleep timer를 좀 길게 조정해놓고, 다른 액션들로 감소시키기 -- 완
-    // 자는동안 다른 액션들 제한하기 -- 완
 
     public static Animator HGAnimator;
 

@@ -29,16 +29,8 @@ public static class SaveSystem
 
             HatchigotchiData data = formatter.Deserialize(stream) as HatchigotchiData;
             
-            NeedsAndActionScript.hungerMeter = data.hungerMeter;
+           
             stream.Close();
-            
-            Debug.Log("Loaded!");
-            Debug.Log(data.name);
-            Debug.Log(data.age);
-            Debug.Log(data.hungerMeter);
-            Debug.Log(data.happinessMeter);
-            Debug.Log(data.playfulMeter);
-            Debug.Log(data.sleepinessMeter);
 
             return data;
         }else

@@ -13,8 +13,7 @@ public class HatchingTimer : MonoBehaviour
     public static float hatchTimer = 3000;
     public static bool hatchIt = false;
 
-    private Hatchigotchi SaveEgg;
-    
+   
     
 
     
@@ -25,10 +24,7 @@ public class HatchingTimer : MonoBehaviour
             TimeMaster.instance.SaveDate();
             hatchTimer = 3000;
             GetTheCode.newUser = false;
-            HatchigotchiData.currentScene = 2;
-            SaveEgg = GetComponent<Hatchigotchi>();
-            //SaveEgg.SaveHatchigotchi();
-            
+            SceneHandler.currentScene = 2;
         } 
         
          hatchTimer -= TimeMaster.instance.CheckDate();
@@ -55,7 +51,7 @@ public class HatchingTimer : MonoBehaviour
         }
         else if(hatchTimer <= 0.0f || hatchIt == true) // we dont count anymore
         {
-            HatchigotchiData.currentScene = 3;
+            SceneHandler.currentScene = 3;
             timerText.text = "Hatching Now!";
             hatchTimer = 0.0f;
 

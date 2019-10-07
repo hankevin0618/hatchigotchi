@@ -9,7 +9,6 @@ public class Hatchigotchi : MonoBehaviour
     public int age = 10;
     public string name;
     public int currentScene;
-    public Text nameGetter;
 
     public int hungerMeter;
     public int happinessMeter;
@@ -17,47 +16,68 @@ public class Hatchigotchi : MonoBehaviour
     public int sleepinessMeter;
 
 
-
     
+
     public void SaveHatchigotchi()
     {
-        name = nameGetter.text;
-        age = 10;
-        hungerMeter = NeedsAndActionScript.hungerMeter;
-        happinessMeter = NeedsAndActionScript.happinessMeter;
-        playfulMeter = NeedsAndActionScript.playfulMeter;
-        sleepinessMeter = NeedsAndActionScript.sleepinessMeter;
+        if(!SceneHandler.eggScene)
+        {
+        name = NamingStageScript.theName.text;
         
+        // age = 10;
+        // hungerMeter = NeedsAndActionScript.hungerMeter;
+        // happinessMeter = NeedsAndActionScript.happinessMeter;
+        // playfulMeter = NeedsAndActionScript.playfulMeter;
+        // sleepinessMeter = NeedsAndActionScript.sleepinessMeter;
+        }
+        currentScene = SceneHandler.currentScene;
+        
+
         SaveSystem.SaveHatchigotchi(this);
     }
+
+    
     public void LoadHatchigotchi()
     {
         try
         {
-            SceneManager.LoadScene(HatchigotchiData.currentScene);
+            
             HatchigotchiData data = SaveSystem.LoadHatchigotchi();
 
-            // 저장이 다 되는데 로드도 되는데 씬 들어가서 업데이트가 안됨.
-            // 덮어씌워지질 않나봄
-            // 껐다 키면 이름도 지워짐. 그러나 데이터는 남아있음
-            name = data.name; // 이거부터 구현하면 될듯.
-            age = data.age;
-            NeedsAndActionScript.hungerMeter = data.hungerMeter;
-            happinessMeter = data.happinessMeter;
-            playfulMeter = data.playfulMeter;
-            sleepinessMeter = data.sleepinessMeter;
+            // 이름기억완료
+
+            if(!SceneHandler.eggScene)
+            {
+                
+                name = data.name; 
+                print("name: " + name);
+                
+                
+                
+
+                
+                
+                
+                // age = data.age;
+                // NeedsAndActionScript.hungerMeter = data.hungerMeter;
+                // happinessMeter = data.happinessMeter;
+                // playfulMeter = data.playfulMeter;
+                // sleepinessMeter = data.sleepinessMeter;                
+            }
+
+            currentScene = data.currentScene;
+            print("Load Scene: " +currentScene);
+            SceneManager.LoadScene(currentScene);
+            
         }
         catch (System.Exception ex)
         {
             Debug.Log(ex);
             throw ex;
         }
-        
-
-        
-
-        
     }
+
+
 }
 
 

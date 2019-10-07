@@ -12,6 +12,7 @@ public class NamingStageScript : MonoBehaviour
     public static Text theName; 
     
     
+    
 
     void Start()
     {
@@ -20,7 +21,8 @@ public class NamingStageScript : MonoBehaviour
     }
     public void ToNextScene()
     {
-        HatchigotchiData.currentScene = 4;
+        SceneHandler.currentScene = 4;
+        SceneHandler.eggScene = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     

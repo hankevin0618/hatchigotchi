@@ -37,6 +37,7 @@ public class ObjectsHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SceneHandler.currentScene = 4;
         renderer2D = GetComponent<SpriteRenderer>();
         body2d = GetComponent<Rigidbody2D>();
 

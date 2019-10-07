@@ -3318,7 +3318,6 @@ MonoBehaviour:
   age: 0
   name: 
   currentScene: 4
-  nameGetter: {fileID: 1431091633}
   hungerMeter: 0
   happinessMeter: 0
   playfulMeter: 0
