@@ -43,7 +43,16 @@ public class GetTheName : MonoBehaviour
         
         if(data.name.Length > 0)
         {
-            hatchigotchiName.text = data.name;  
+            try
+            {
+                hatchigotchiName.text = data.name;  
+            }
+            catch (System.Exception ex)
+            {
+                
+                Debug.Log(ex);
+            }
+            
         } else
         {
             Debug.Log("No name loaded");

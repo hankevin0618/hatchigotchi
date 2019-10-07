@@ -128,10 +128,8 @@ public class ObjectsHandler : MonoBehaviour
         public void Scold() 
     {
         NeedsAndActionScript.wakeUp = true;
-        Debug.Log("Wake Up!");
         poopTimer -= 3;
-        NeedsAndActionScript.happinessMeter -= 5;
-        NeedsAndActionScript.sleepinessMeter -= 1;
+        NeedsAndActionScript.happinessMeter --;
         NeedsAndActionScript.HGAnimator.SetInteger("HGAnimState", 3);
     }
 
