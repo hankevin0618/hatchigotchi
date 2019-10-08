@@ -14,15 +14,12 @@ public class HatchigotchiData
     public int age;
     public int numOfPoos;
     public int numOfMeats;
-    
-
     public int currentScene;
-    
-
     public int hungerMeter; 
     public int happinessMeter; 
     public int playfulMeter; 
     public int sleepinessMeter;
+    public int bondingMeter;
 
 
 
@@ -35,6 +32,7 @@ public class HatchigotchiData
         happinessMeter = hatchigotchi.happinessMeter;
         playfulMeter = hatchigotchi.playfulMeter;
         sleepinessMeter = hatchigotchi.sleepinessMeter;
+        bondingMeter = hatchigotchi.bondingMeter; // focus
         currentScene = hatchigotchi.currentScene;
         
 

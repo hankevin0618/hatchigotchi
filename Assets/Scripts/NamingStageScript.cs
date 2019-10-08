@@ -30,7 +30,5 @@ public class NamingStageScript : MonoBehaviour
     {
         theName = theInput.textComponent;
 
-        
-        
     }
 }

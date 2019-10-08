@@ -6,9 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class Hatchigotchi : MonoBehaviour
 {
-    public int age = 10;
-    public string name;
-    public int currentScene;
+
+    // Bonding meter 글로벌화
+    // sleeping meter 글로벌화
+    // Bonding card 핥기
+    // Save 버튼 지우기
+
+    public int age = 10; // aging should start 
+    public string name; // working
+    public int currentScene; // working
+
+
+    public int bondingMeter; // 플러스 10 마이너스 10에 따라서 임의로 본딩카드를 prefab으로 주자
 
     public int hungerMeter;
     public int happinessMeter;
@@ -22,8 +31,8 @@ public class Hatchigotchi : MonoBehaviour
     {
         if(!SceneHandler.eggScene)
         {
-        name = NamingStageScript.theName.text;
-        
+            name = NamingStageScript.theName.text; 
+             
         // age = 10;
         // hungerMeter = NeedsAndActionScript.hungerMeter;
         // happinessMeter = NeedsAndActionScript.happinessMeter;
@@ -52,12 +61,7 @@ public class Hatchigotchi : MonoBehaviour
                 name = data.name; 
                 print("name: " + name);
                 
-                
-                
 
-                
-                
-                
                 // age = data.age;
                 // NeedsAndActionScript.hungerMeter = data.hungerMeter;
                 // happinessMeter = data.happinessMeter;

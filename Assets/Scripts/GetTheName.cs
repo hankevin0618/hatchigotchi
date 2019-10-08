@@ -10,6 +10,7 @@ public class GetTheName : MonoBehaviour
     private Text inputName;
 
     private HatchigotchiData data;
+    
 
     
 
@@ -29,6 +30,7 @@ public class GetTheName : MonoBehaviour
         try{
 
             hatchigotchiName.text = inputName.text;
+            data.name = hatchigotchiName.text;
             
         }
         catch(System.Exception ex)
@@ -43,6 +45,7 @@ public class GetTheName : MonoBehaviour
         
         if(data.name.Length > 0)
         {
+            
             try
             {
                 hatchigotchiName.text = data.name;  
@@ -55,9 +58,19 @@ public class GetTheName : MonoBehaviour
             
         } else
         {
-            Debug.Log("No name loaded");
-            hatchigotchiName.text = "Empty";
+            try
+            {
+                hatchigotchiName.text = "Empty";
+            }
+            catch (System.Exception ex)
+            {
+                Debug.Log(ex);
+                
+            }
+                        
         }
+
+        // print("GetTheName name: " + hatchigotchiName.text);
             
         
 

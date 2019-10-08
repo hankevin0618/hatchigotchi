@@ -5,14 +5,12 @@ using UnityEngine;
 public class NeedsAndActionScript : MonoBehaviour
 {
 
-
-
-    // 혼나야하는 상황?
-    // 저장하기
     // 유저와의 본딩? prefab으로 선물이나 행동을 얻을 수 있음
 
 
     public static Animator HGAnimator;
+
+
 
     // Hunger variables
     public static int hungerMeter;
@@ -79,6 +77,7 @@ public class NeedsAndActionScript : MonoBehaviour
         PlayfulHandler();
         SleepHandler();
         
+        
         // in sleep mode
         SleepMode();
 
@@ -97,29 +96,24 @@ public class NeedsAndActionScript : MonoBehaviour
             {
                 // happy or unhappy
                 case 1:
-                Debug.Log("it is 1");
                 Expression();
                 animTimer = 10f;
                 break;
 
                 // sleep
                 case 0:
-                Debug.Log("it is 0");
                 Sleep();
                 
                 break;
 
 
                 default:
-                Debug.Log("it is default");
+                
                 HGAnimator.SetInteger("HGAnimState", 0);
                 animTimer = 10f;
                 break;
+            }  
 
-
-            }
-
-            
         }
     }
 
@@ -213,9 +207,6 @@ public class NeedsAndActionScript : MonoBehaviour
                 }
                 
                 EatItScript.turnEat = true;
-                
-               
-
             }
         }
         catch(System.NullReferenceException ex)
@@ -389,6 +380,7 @@ public class NeedsAndActionScript : MonoBehaviour
             
             if(inSleepTimer <= 0.0f && !wakeUp)
             {
+                Debug.Log("SLEEP MODE: " + animTimer);
                 Debug.Log("animTimer: " + animTimer);
                 happinessMeter += 1;
                 Debug.Log("happinessMeter: " + happinessMeter);
@@ -408,6 +400,8 @@ public class NeedsAndActionScript : MonoBehaviour
             }
         } 
     }
+
+    
     
 
 }

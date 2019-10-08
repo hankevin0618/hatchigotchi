@@ -1137,6 +1137,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1307014117}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &538507672
@@ -2343,6 +2354,9 @@ MonoBehaviour:
     type: 3}
   pooHandler: {fileID: 5053617699291049324, guid: 305eb9f717a64354898601f43f2483de,
     type: 3}
+  stoneCardHandler: {fileID: 0}
+  hideCardHandler: {fileID: 0}
+  biteCardHandler: {fileID: 0}
 --- !u!1 &1307014117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,6 +3332,7 @@ MonoBehaviour:
   age: 0
   name: 
   currentScene: 4
+  bondingMeter: 0
   hungerMeter: 0
   happinessMeter: 0
   playfulMeter: 0
@@ -3962,7 +3977,7 @@ GameObject:
   - component: {fileID: 1929663186}
   - component: {fileID: 1929663184}
   m_Layer: 0
-  m_Name: PoopHandler
+  m_Name: ObjectsHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3983,6 +3998,12 @@ MonoBehaviour:
   meatHandler: {fileID: 1945438605913092372, guid: 37ca520490c1c404e88a53c60ea57966,
     type: 3}
   pooHandler: {fileID: 5053617699291049324, guid: 305eb9f717a64354898601f43f2483de,
+    type: 3}
+  stoneCardHandler: {fileID: 1013354997712455681, guid: bb966e10430d8bb40b19acc7c1431e23,
+    type: 3}
+  hideCardHandler: {fileID: 5272732911017657346, guid: c6aaecac7798f804fbcf8303f245e3c8,
+    type: 3}
+  biteCardHandler: {fileID: 8310472051208347968, guid: f79c595476f6c074c91252d690f26ce4,
     type: 3}
 --- !u!4 &1929663186
 Transform:

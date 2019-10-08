@@ -7,7 +7,19 @@ public class ObjectsHandler : MonoBehaviour
 
     public ObjectsHandler meatHandler;
     public ObjectsHandler pooHandler;
+    public ObjectsHandler stoneCardHandler;
+    public ObjectsHandler hideCardHandler;
+    public ObjectsHandler biteCardHandler;
 
+    // Bonding Variables
+    public static int bondingMeter;
+    private int maxBonding = 25; // make it 25
+    private int minBonding = -25;
+    private float bondingTimer = 10;
+    Vector3 cardPos;
+    private string stoneName = "stone_bondingcard(Clone)";
+    private string hideName = "hide_bondingcard(Clone)";
+    private string biteName = "bite_bondingcard(Clone)";
     // Meats variables
     private int maxMeats = 3;
 
@@ -40,6 +52,7 @@ public class ObjectsHandler : MonoBehaviour
         SceneHandler.currentScene = 4;
         renderer2D = GetComponent<SpriteRenderer>();
         body2d = GetComponent<Rigidbody2D>();
+        cardPos = new Vector3(0,0,0);
 
       
     }
@@ -53,18 +66,11 @@ public class ObjectsHandler : MonoBehaviour
             Poop(); 
             poopTimer = 350f; // 5 mins
         }
+
+        BondingCard();
     }
 
     public void CleanUp() {
-
-        // if(numOfMeats > 0){
-        //     for(int i = 0; i < numOfMeats; i++)
-        //     {  
-        //         DestroyImmediate(GameObject.Find(meatName));
-        //     }
-        //     numOfMeats = 0;
-        // }
-        
         
         if(numOfMeats > 0)
         {
@@ -78,10 +84,7 @@ public class ObjectsHandler : MonoBehaviour
             DestroyImmediate(GameObject.Find(pooName));
         }
         DestroyImmediate(GameObject.Find(pooName));
-        
-
-
-        
+       
     }
 
     public void Feed() {
@@ -143,6 +146,81 @@ public class ObjectsHandler : MonoBehaviour
             NeedsAndActionScript.sleepinessMeter -= 1;
         }
     
+    }
+
+
+    void BondingCard()
+    {
+        
+        bondingTimer -= Time.deltaTime;
+        if(bondingTimer <= 0.0f)
+        {
+            
+            if(NeedsAndActionScript.happy)
+            {
+                bondingMeter++;
+                print("Bonding Increased! =>" + bondingMeter);
+                if(bondingMeter == maxBonding)
+                {
+                    if(!GameObject.Find(stoneName))
+                    {
+                        var stone = Instantiate(stoneCardHandler, cardPos, Quaternion.identity);
+                    }
+                    
+                    bondingMeter = 0;
+                }
+            }
+            else if(!NeedsAndActionScript.happy)
+            {
+                int cardState = Random.Range(0,2);
+                bondingMeter--;
+                print("Bonding Decreased! =>" + bondingMeter);
+                if(bondingMeter == minBonding)
+                {
+                    switch(cardState)
+                    {
+                        // Bite
+                        case 1:
+                            if(!GameObject.Find(biteName))
+                            {
+                                var bite = Instantiate(biteCardHandler, cardPos, Quaternion.identity);
+                            }
+                            break;
+
+                        // Hide
+                        case 0:
+                            if(!GameObject.Find(hideName))
+                            {
+                                var hide = Instantiate(hideCardHandler, cardPos, Quaternion.identity);
+                            }
+                            break;
+                        
+                        default:
+                            break;
+                    }
+                    
+                    bondingMeter = 0; 
+                }
+            }
+
+
+            bondingTimer = 10;
+        }
+
+    }
+
+    public void CloseCard() {
+        try
+        {
+            DestroyImmediate(this.gameObject);
+            
+        }
+        catch (System.Exception ex)
+        {
+            Debug.Log(ex);
+            throw;
+        }
+       
     }
 
 
