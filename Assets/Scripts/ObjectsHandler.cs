@@ -13,7 +13,7 @@ public class ObjectsHandler : MonoBehaviour
 
     // Bonding Variables
     public static int bondingMeter;
-    private int maxBonding = 25; // make it 25
+    private int maxBonding = 25; 
     private int minBonding = -25;
     private float bondingTimer = 10;
     Vector3 cardPos;
@@ -43,8 +43,12 @@ public class ObjectsHandler : MonoBehaviour
     private SpriteRenderer renderer2D;
     private Rigidbody2D body2d;
 
-    public static float poopTimer = 60f;
+    public static float poopTimer = 6f;
     
+    
+    private HatchigotchiData data;
+    //private Hatchigotchi saving;
+
 
     // Start is called before the first frame update
     void Start()
@@ -54,7 +58,17 @@ public class ObjectsHandler : MonoBehaviour
         body2d = GetComponent<Rigidbody2D>();
         cardPos = new Vector3(0,0,0);
 
-      
+
+        try
+        {
+            data = SaveSystem.LoadHatchigotchi();
+            bondingMeter = data.bondingMeter;
+        }
+        catch (System.Exception)
+        {
+            bondingMeter = 0;
+            throw;
+        }
     }
 
     // Update is called once per frame
@@ -123,9 +137,7 @@ public class ObjectsHandler : MonoBehaviour
             }
             
             
-        } else{
-            //something bad thing happens
-        }
+        } 
     }
 
         public void Scold() 
@@ -160,14 +172,27 @@ public class ObjectsHandler : MonoBehaviour
             {
                 bondingMeter++;
                 print("Bonding Increased! =>" + bondingMeter);
-                if(bondingMeter == maxBonding)
+                if(bondingMeter > maxBonding)
                 {
-                    if(!GameObject.Find(stoneName))
+                    try
                     {
+                        bondingMeter = 0;
+                        bondingTimer = 10;
+                        if(!GameObject.Find(stoneName))
+                        {
                         var stone = Instantiate(stoneCardHandler, cardPos, Quaternion.identity);
+                        }
+                    
+                        
+                    }
+                    catch (System.Exception ex)
+                    {
+                        bondingMeter = 0;
+                        bondingTimer = 10;
+                        Debug.Log(ex);
+                        throw;
                     }
                     
-                    bondingMeter = 0;
                 }
             }
             else if(!NeedsAndActionScript.happy)
@@ -175,7 +200,7 @@ public class ObjectsHandler : MonoBehaviour
                 int cardState = Random.Range(0,2);
                 bondingMeter--;
                 print("Bonding Decreased! =>" + bondingMeter);
-                if(bondingMeter == minBonding)
+                if(bondingMeter < minBonding)
                 {
                     switch(cardState)
                     {
@@ -183,7 +208,19 @@ public class ObjectsHandler : MonoBehaviour
                         case 1:
                             if(!GameObject.Find(biteName))
                             {
-                                var bite = Instantiate(biteCardHandler, cardPos, Quaternion.identity);
+                                try
+                                {
+                                    bondingTimer = 10;
+                                    bondingMeter = 0; 
+                                    var bite = Instantiate(biteCardHandler, cardPos, Quaternion.identity);
+                                    
+                                }
+                                catch (System.Exception)
+                                {
+                                    
+                                    throw;
+                                }
+                                
                             }
                             break;
 
@@ -191,7 +228,19 @@ public class ObjectsHandler : MonoBehaviour
                         case 0:
                             if(!GameObject.Find(hideName))
                             {
-                                var hide = Instantiate(hideCardHandler, cardPos, Quaternion.identity);
+                                try
+                                {
+                                    bondingTimer = 10;
+                                    bondingMeter = 0; 
+                                    var hide = Instantiate(hideCardHandler, cardPos, Quaternion.identity);
+                                }
+                                catch (System.Exception)
+                                {
+                                    
+                                    throw;
+                                }
+                                
+                                
                             }
                             break;
                         

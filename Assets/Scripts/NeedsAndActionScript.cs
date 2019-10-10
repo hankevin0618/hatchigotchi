@@ -5,8 +5,6 @@ using UnityEngine;
 public class NeedsAndActionScript : MonoBehaviour
 {
 
-    // 유저와의 본딩? prefab으로 선물이나 행동을 얻을 수 있음
-
 
     public static Animator HGAnimator;
 
@@ -47,10 +45,11 @@ public class NeedsAndActionScript : MonoBehaviour
     private float hungerTimer = 5f;
     private float happinessTimer = 5f;
     private float playfulTimer = 5f;
-    private float sleepinessTimer = 350; // 5 mins
+    private float sleepinessTimer = 350f; // 5 mins
     private float inSleepTimer = 10;
 
-
+    private HatchigotchiData data;
+    private Hatchigotchi saving;
 
 
 
@@ -58,12 +57,35 @@ public class NeedsAndActionScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TimeMaster.instance.SaveDate();
         HGAnimator = GetComponent<Animator>();
-        hungerMeter = moderateValue;
-        happinessMeter = moderateValue;
-        playfulMeter = moderateValue;
-        sleepinessMeter = moderateValue;
+        saving = GetComponent<Hatchigotchi>();
+
+
+       
+        if(!GetTheCode.newUser)
+        {
+            data = SaveSystem.LoadHatchigotchi();
+            hungerMeter = data.hungerMeter;
+            happinessMeter = data.happinessMeter;
+            playfulMeter = data.playfulMeter;
+            sleepinessMeter = data.sleepinessMeter;
+            
+            
+
+        } else
+        {
+            hungerMeter = moderateValue;
+            happinessMeter = moderateValue;
+            playfulMeter = moderateValue;
+            sleepinessMeter = moderateValue;
+            
+        
+        }
+
+
+        inSleepTimer -= TimeMaster.instance.CheckDate();
+        GetTheCode.newUser = false;
         
     }
 
@@ -113,6 +135,9 @@ public class NeedsAndActionScript : MonoBehaviour
                 animTimer = 10f;
                 break;
             }  
+            Debuging();
+            SaveMeters();
+
 
         }
     }
@@ -137,7 +162,6 @@ public class NeedsAndActionScript : MonoBehaviour
         {
             hungerMeter--;
             hungerTimer = 5f;
-            Debug.Log("current hunger meter is: " + hungerMeter);
         }
 
         if(hungerMeter <= hungryPoint)
@@ -203,7 +227,7 @@ public class NeedsAndActionScript : MonoBehaviour
                     happinessMeter += 10;
                     sleepinessMeter -= 1;
                     ObjectsHandler.poopTimer -= 1;
-                    Debug.Log("Current Poop Timer is: " + ObjectsHandler.poopTimer);
+
                 }
                 
                 EatItScript.turnEat = true;
@@ -234,7 +258,6 @@ public class NeedsAndActionScript : MonoBehaviour
         {
             happinessMeter--;
             happinessTimer = 5f;
-            Debug.Log("current happiness meter is: " + happinessMeter);
         }
 
         if(happinessMeter < unhappyPoint)
@@ -273,7 +296,7 @@ public class NeedsAndActionScript : MonoBehaviour
         {
             playfulMeter--;
             playfulTimer = 5f;
-            Debug.Log("current playful meter is: " + playfulMeter);
+            
         }
 
         if(playfulMeter < boredPoint)
@@ -399,6 +422,29 @@ public class NeedsAndActionScript : MonoBehaviour
                 inSleep = false;
             }
         } 
+    }
+
+    void Debuging()
+    {
+        Debug.Log("current playful meter is: " + playfulMeter);
+        Debug.Log("current hunger meter is: " + hungerMeter);
+        Debug.Log("Current Poop Timer is: " + ObjectsHandler.poopTimer);
+        Debug.Log("current happiness meter is: " + happinessMeter);
+    }
+
+    void SaveMeters()
+    {
+        try
+        {
+        saving.GetComponent<Hatchigotchi>().SaveHatchigotchi();
+        print("saving worked");
+        }
+        catch (System.Exception ex)
+        {
+            print("saving not worked");
+            Debug.Log(ex);
+            throw;
+        }
     }
 
     

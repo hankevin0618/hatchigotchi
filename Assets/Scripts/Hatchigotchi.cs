@@ -7,41 +7,32 @@ using UnityEngine.SceneManagement;
 public class Hatchigotchi : MonoBehaviour
 {
 
-    // Bonding meter 글로벌화
-    // sleeping meter 글로벌화
-    // Bonding card 핥기
-    // Save 버튼 지우기
-
-    public int age = 10; // aging should start 
-    public string name; // working
-    public int currentScene; // working
+    public string name; 
+    public int currentScene; 
 
 
-    public int bondingMeter; // 플러스 10 마이너스 10에 따라서 임의로 본딩카드를 prefab으로 주자
+    public int bondingMeter; 
 
+    
     public int hungerMeter;
     public int happinessMeter;
     public int playfulMeter;
     public int sleepinessMeter;
 
-
-    
-
     public void SaveHatchigotchi()
     {
         if(!SceneHandler.eggScene)
         {
-            name = NamingStageScript.theName.text; 
-             
-        // age = 10;
-        // hungerMeter = NeedsAndActionScript.hungerMeter;
-        // happinessMeter = NeedsAndActionScript.happinessMeter;
-        // playfulMeter = NeedsAndActionScript.playfulMeter;
-        // sleepinessMeter = NeedsAndActionScript.sleepinessMeter;
+            //name = NamingStageScript.theName.text; 
+
+            bondingMeter = ObjectsHandler.bondingMeter;
+
+            hungerMeter = NeedsAndActionScript.hungerMeter; 
+            happinessMeter = NeedsAndActionScript.happinessMeter;
+            playfulMeter = NeedsAndActionScript.playfulMeter;
+            sleepinessMeter = NeedsAndActionScript.sleepinessMeter;
         }
         currentScene = SceneHandler.currentScene;
-        
-
         SaveSystem.SaveHatchigotchi(this);
     }
 
@@ -53,24 +44,23 @@ public class Hatchigotchi : MonoBehaviour
             
             HatchigotchiData data = SaveSystem.LoadHatchigotchi();
 
-            // 이름기억완료
-
             if(!SceneHandler.eggScene)
             {
-                
                 name = data.name; 
                 print("name: " + name);
+
+                bondingMeter = data.bondingMeter;
                 
 
-                // age = data.age;
-                // NeedsAndActionScript.hungerMeter = data.hungerMeter;
-                // happinessMeter = data.happinessMeter;
-                // playfulMeter = data.playfulMeter;
-                // sleepinessMeter = data.sleepinessMeter;                
-            }
+                hungerMeter = data.hungerMeter;  
+                happinessMeter = data.happinessMeter;
+                playfulMeter = data.playfulMeter;
+                //sleepinessMeter = data.sleepinessMeter;
 
+            }
+            
+            // Load the scene
             currentScene = data.currentScene;
-            print("Load Scene: " +currentScene);
             SceneManager.LoadScene(currentScene);
             
         }

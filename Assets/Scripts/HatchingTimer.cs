@@ -25,6 +25,7 @@ public class HatchingTimer : MonoBehaviour
             hatchTimer = 3000;
             GetTheCode.newUser = false;
             SceneHandler.currentScene = 2;
+            hatchIt = false;
         } 
         
          hatchTimer -= TimeMaster.instance.CheckDate();
@@ -39,7 +40,6 @@ public class HatchingTimer : MonoBehaviour
 
         if(hatchTimer >= 0.0f && !hatchIt)
         {
-            //timer -= TimeMaster.instance.CheckDate();
             hatchTimer -= Time.deltaTime;
             
             timerText.text = "Hatching in: " + hatchTimer.ToString("0") + "s"; // f converts float to string

@@ -22,6 +22,7 @@ public class NamingStageScript : MonoBehaviour
     public void ToNextScene()
     {
         SceneHandler.currentScene = 4;
+        GetTheCode.newUser = true;
         SceneHandler.eggScene = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

@@ -60,7 +60,7 @@ public class GetTheName : MonoBehaviour
         {
             try
             {
-                hatchigotchiName.text = "Empty";
+                hatchigotchiName.text = "";
             }
             catch (System.Exception ex)
             {
@@ -70,8 +70,6 @@ public class GetTheName : MonoBehaviour
                         
         }
 
-        // print("GetTheName name: " + hatchigotchiName.text);
-            
         
 
     }
