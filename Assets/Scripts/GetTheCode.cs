@@ -11,8 +11,8 @@ public class GetTheCode : MonoBehaviour
     private Color redColor = new Color(1, 0, 0);
     private Color blackColor = new Color(0,0,0);
     
-    private string validCode = "AwesomeHatchigotchi1234";
-    private string devValidCode = "1";
+    private string validCode = "ILoveYou3000";
+    // private string devValidCode = "1";
 
     public static bool newUser = false;
     
@@ -36,7 +36,7 @@ public class GetTheCode : MonoBehaviour
     public void Verify()
     {
 
-        if(theCodeInput.text == validCode || theCodeInput.text == devValidCode)
+        if(theCodeInput.text == validCode)
         {
             // next scene
             SceneHandler.currentScene = 2;
